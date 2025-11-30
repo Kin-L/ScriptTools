@@ -14,7 +14,7 @@ class LyricsExtractorGUI:
     def __init__(self):
         self.root = tk.Tk()
         self.root.title("音频文件歌词提取工具")
-        self.root.geometry("600x400")
+        self.root.geometry("600x600")
 
         # 创建界面
         self.create_widgets()
